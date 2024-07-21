@@ -5,11 +5,11 @@ import Footer from './Footer'
 
 export default function App() {
   return (
-    <div style={{ height:'1rem', background: 'red' }}  >
+    <div style={{ height:'100%'}}  >
       <div style={{ background: 'red' }} >
         <Header />
       </div>
-      <div style={{ background: 'green' }} >
+      <div style={{  height:800 }} >
         <Body />
       </div>
       <div style={{ background: 'blue' }} >
